@@ -699,7 +699,8 @@ ul, ol {
 .hp-room-items .hp-room-item {
 	height: 600px;
 	margin-right: -15px;
-	position: relative;
+    position: relative;
+    
 	overflow: hidden;
 }
 .hp-room-items .hp-room-item:hover .hr-text {
@@ -1923,13 +1924,26 @@ ul, ol {
 .map iframe {
 	width: 100%;
 }
-.more{
-	margin-left: 25%;
-}
+
+
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 @media (min-width: 992px){
 .solo {
     margin-left: 41.66%;
+}
+}
+@media (min-width: 992px){
+.col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 45%;
+    max-width: 25%;
+    
+}
+.more{
+	margin-left: 25%;
+}
+.more2{
+	margin-left: 0%;
 }
 }
 @media only screen and (min-width: 992px) {
@@ -1939,6 +1953,7 @@ ul, ol {
 	.hero-text h1{
 		font-size: 10px;
 	}
+	
 }
 @media only screen and (min-width: 1554px) and (max-width: 1920px) {
 	.hp-room-items .hp-room-item .hr-text {
